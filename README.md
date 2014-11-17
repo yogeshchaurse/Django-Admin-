@@ -10,11 +10,12 @@ To start with this you must know basics of python Looping,control statement,Data
 
 
 Run Bootstrap file from terminal to setup a new Django project this file create development environment for your project covering.
+
 1)PIP(Package management tool).
 2)South Migration Tool.
 3)Django Instalation
 4)Create new Django Project.
 5)Create your First App in Django project.
-6)Install Database Drivers required for python(Postgresql,mysql).
+6)Install Database Drivers required for python based on database you want to use(Postgresql,mysql).
 7)Pylint to ensure coiding standard.
 
