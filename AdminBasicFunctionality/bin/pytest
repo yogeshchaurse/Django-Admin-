@@ -1,0 +1,7 @@
+#!/home/webonise/projects/python/apps2014/DjangoAdmin/AdminBasicFunctionality/bin/python2.7
+
+import warnings
+warnings.simplefilter('default', DeprecationWarning)
+
+from logilab.common.pytest import run
+run()
