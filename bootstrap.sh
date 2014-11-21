@@ -41,8 +41,8 @@ echo "Installing pylint for checking coding Standard"
 pip install pylint
 
 echo "Install South Migration tool"
-pip install south 
-
+pip install south==0.8.4 
+pip install django-localflavor==1.0
 echo "Which database you wnat to use 1.Postgresql 2. Mysql"
 read choice 
 
@@ -51,7 +51,7 @@ case $choice in
 	1) pip install psycopg2;;
 	*) echo "Unknown  Choice";;
 esac
-pip install Django==1.6
+pip install Django==1.6.5
 echo "Enter the Django project name"
 read project
 django-admin.py startproject $project
@@ -63,7 +63,7 @@ python manage.py startapp $app_name
 
 python manage.py syncdb
 
-vim fabfile.py
+#vim fabfile.py
 
 echo "Bootstrap complete!"
 
